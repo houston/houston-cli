@@ -1,7 +1,12 @@
 require "houston/cli/version"
 
 module Houston
-  module Cli
-    # Your code goes here...
+  module CLI
+    
+    def self.new_module!
+      require "houston/cli/houston_module_generator"
+      HoustonModuleGenerator.start
+    end
+    
   end
 end

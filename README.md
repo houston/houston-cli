@@ -1,4 +1,4 @@
-# Houston::Cli
+# Houston::CLI
 
 TODO: Write a gem description
 
