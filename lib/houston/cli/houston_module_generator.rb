@@ -36,9 +36,13 @@ class HoustonModuleBuilder < Rails::PluginBuilder
   def stylesheets
     # do nothing
   end
-
+  
   def javascripts
     # do nothing
+  end
+  
+  def readme
+    template "README.md"
   end
   
 end

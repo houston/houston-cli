@@ -1,6 +1,6 @@
 # Houston::<%= camelized %>
 
-This project rocks.
+TODO: Summary of Houston <%= camelized %>.
 
 
 ## Installation

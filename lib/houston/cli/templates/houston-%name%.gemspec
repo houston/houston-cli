@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "TODO: Summary of Houston <%= camelized %>."
   s.description = "TODO: Description of Houston <%= camelized %>."
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 <% unless options.skip_test_unit? -%>
   s.test_files = Dir["test/**/*"]
 <% end -%>
