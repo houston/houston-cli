@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 <% end -%>
 
-  <%= '# ' if options.dev? || options.edge? -%>s.add_dependency "rails", "~> <%= Rails::VERSION::STRING %>"
+  <%= '# ' if options.dev? || options.edge? -%>s.add_dependency "rails"
 end
