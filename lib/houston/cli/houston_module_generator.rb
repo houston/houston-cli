@@ -21,6 +21,11 @@ class HoustonModuleBuilder < Rails::PluginBuilder
     end
   end
   
+  def config
+    template "config/initializers/add_navigation_renderer.rb"
+    template "config/routes.rb"
+  end
+  
   def lib
     template "lib/houston/%name%.rb"
     template "lib/houston/%name%/configuration.rb"
