@@ -23,6 +23,7 @@ class HoustonModuleBuilder < Rails::PluginBuilder
   
   def lib
     template "lib/houston/%name%.rb"
+    template "lib/houston/%name%/configuration.rb"
     template "lib/houston/%name%/engine.rb"
     template "lib/houston/%name%/version.rb"
     template "lib/houston-%name%.rb"
